@@ -1,0 +1,12 @@
+USE db_rh;
+
+CREATE TABLE tb_funcionares(
+id BIGINT (5) AUTO_INCREMENT,
+nome VARCHAR (80) NOT NULL,
+idade INT NOT NULL,
+cpf BIGINT (11) NOT NULL,
+salario DECIMAL (10,2) NOT NULL,
+PRIMARY KEY (id)
+);
+
+
